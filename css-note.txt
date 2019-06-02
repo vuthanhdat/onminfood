@@ -1,0 +1,84 @@
+FIRST SETUP
+  margin and padding is 0
+  box-sizing: border-box
+
+  html - background-color: #fff
+       - text color for entire project
+       - font family, size, wight
+       - text-rendering: optimizeLegibility;
+
+  https://necolas.github.io/normalize.css/
+
+THREE INGREDIENTS TO RESPONDSIVE WEB
+  1. Fluid grid: all layout elements are sized in relative unites such as percentages
+     ---->  http://www.responsivegridsystem.com/
+  2. Flexible images: are also sized in relative unites
+  3. Media queries
+
+
+Setup row class
+  max-width : 1140px 
+  margin: 0 auto  ----> center row
+
+HEADER CREATE
+  Put text on an image: make image darker   -----> linear-gradient(transparency(rpga))
+  How to make that images as high as the browser viewport
+  How to make a vertically a horizontally centered box
+  How to design buttons
+  CSS states: link, visited, hover, active
+  CSS3 transitions for small animations
+  How to create a simple navigation
+
+
+  1. header 
+      - background-image
+      - background-cover
+      - background-position:center
+      - height 100vh
+
+  2. text
+      - position: absolute
+      - width: 1140
+      - top 50% and left 50%  --->  transform translate
+
+      - h1 margin 0, color #fff, set fontsize 240%, text-transform upper, word space
+
+  3. button
+      - display inline-block, border-radius
+      - select color: flatuicolors
+      - btn full and btn ghost difference style
+      - set border and space to h1
+      - css state: link and visited
+                   hover and active ---> darker orange
+                   0to255.com to choose color
+      - use transition background-color 0.2s
+
+  4. logo and menu
+      - row sis decided as resuse component
+      - nav tag is used.
+      - logo: height, width, float=left
+      - navigation: float-right
+                    list-style
+                    li is display inline block and margin-left: 40px, 
+                    li-a is setup with font-size, color, text-decoration, upper case
+
+      - setup state: add border-bottom when link and visited is transparent(when hover, active transtion to orange color )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
