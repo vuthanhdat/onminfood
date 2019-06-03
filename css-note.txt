@@ -63,12 +63,35 @@ HEADER CREATE
                     li-a is setup with font-size, color, text-decoration, upper case
 
       - setup state: add border-bottom when link and visited is transparent(when hover, active transtion to orange color )
+FEATURES SECTION
+  Put content on website with :after
+  fluid grid
+  icon
+  
+  1. add section
+     section have two rows, one for header and one for content
+     row 2 have 4 column
 
+  2. ionicon download
+    include css file 
+    add i tag before h3 tag to use icon
+     
+  3. Add white space for section use padding 80px
+     common of h tag is grouped.
 
+  4. add yellow line between h2 and text by using after
+     after : height 2px and display block and background-color orange 
+             content is " " and margin
+  
+  5. css for text: make it more smaller by width 70% and margin 15% to center
 
+  6. Add some padding between column. use class box for every column padding 1%
 
+  7. css for h3: font-size 130% marign bottom
 
+  8. format text after h3: font-size 90% and line height
 
+  9. format icon : make it bigger -> it is font
 
 
 
