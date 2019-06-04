@@ -93,9 +93,17 @@ FEATURES SECTION
 
   9. format icon : make it bigger -> it is font
 
+FAVORIES MEALS SECTION
+  1. use li tag 25%
+     display block flot left
 
+  2. Adjust space between section by padding 0
 
+  3. make image darker and lighter when hover
+    overflow hidden to fit image to brower
+    transform scale 1.15 and when hover scale to be 1 so we use 1.03
 
+    make image darker: use image attibute opacity is 0.7 and container of background is black. when hover opaciti back to 1
 
 
 
